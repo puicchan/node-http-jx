@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: acrjenkinsx8.azurecr.io/puicchan/node-http-jx
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
   name: node-http-jx
